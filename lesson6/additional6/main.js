@@ -129,3 +129,55 @@
 //     console.log(cut);
 // }
 // cutString(str,5);
+
+
+
+
+
+
+// function sumDigits(num) {
+//     num = num.toString();
+//     return num.length === 0
+//         ? 0
+//         : +num[0] + sumDigits(num.slice(1));
+// }
+//
+// console.log(sumDigits(1234));
+
+// function sumDigits(num, sum) { // num is expected to be a string
+//     sum = sum || 0;
+//     if (num.length === 0) {
+//         return sum;
+//     }
+//     return sumDigits(num.slice(1), sum + +num[0]);
+// }
+//
+// console.log(sumDigits('1234'));
+
+// const sumDigits = (n = 0, acc = 0) =>
+//     n === 0
+//         ? acc
+//         : sumDigits (n / 10 >> 0, acc + n % 10)
+// console.log (sumDigits (1234))
+
+// function sumDigits(stringOfNums) {
+//     console.log(stringOfNums.split('').reduce(function(x,y){ return +x + +y}, 0));
+// }
+// sumDigits("1234");
+
+// function sumDigits(num) {
+//     return num ? (num%10) + sumDigits(Math.floor(num/10)) : 0
+// }
+//
+// console.log(sumDigits(1234));
+
+// function sumDigits(num) {
+//     if (num === 0) {
+//         return 0;
+//     } else {
+//         let last = num % 10;
+//         let rest = Math.floor(num / 10);
+//         return last + sumDigits(rest);
+//     }
+// }
+// console.log(sumDigits(1234));

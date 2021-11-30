@@ -78,57 +78,57 @@
 // ]
 // }
 
-const attrsA = [
-    {
-        titleOfAttr: 'accesskey'
-        , actionOfAttr: 'Активация ссылки с помощью комбинации клавиш.'
-    },
-    {
-        titleOfAttr: 'coords'
-        , actionOfAttr: 'Устанавливает координаты активной области.'
-    },
-    {
-        titleOfAttr: 'download'
-        , actionOfAttr: 'Предлагает скачать указанный по ссылке файл.'
-    },
-    {
-        titleOfAttr: 'href'
-        , actionOfAttr: 'Задает адрес документа, на который следует перейти.'
-    },
-    {
-        titleOfAttr: 'hreflang'
-        , actionOfAttr: 'Идентифицирует язык текста по ссылке.'
-    }
-];
-
-const attrsDiv = [
-    {
-        titleOfAttr: 'align'
-        , actionOfAttr: 'Задает выравнивание содержимого тега div.'
-    },
-    {
-        titleOfAttr: 'title'
-        , actionOfAttr: 'Добавляет всплывающую подсказку к содержимому.'
-    }
-];
-
-class atr {
-
-    constructor(tagName, action, attrs) {
-
-        this.tagName = tagName;
-        this.action = action;
-        this.attrs = attrs;
-
-    }
-
-}
-
-let Lain = [
-    new atr('a', 'Тег a является одним из важных элементов HTML и предназначен для создания ссылок.',attrsA),
-    new atr('div','Элемент является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого.',attrsDiv)
-    ];
-console.log(Lain);
+// const attrsA = [
+//     {
+//         titleOfAttr: 'accesskey'
+//         , actionOfAttr: 'Активация ссылки с помощью комбинации клавиш.'
+//     },
+//     {
+//         titleOfAttr: 'coords'
+//         , actionOfAttr: 'Устанавливает координаты активной области.'
+//     },
+//     {
+//         titleOfAttr: 'download'
+//         , actionOfAttr: 'Предлагает скачать указанный по ссылке файл.'
+//     },
+//     {
+//         titleOfAttr: 'href'
+//         , actionOfAttr: 'Задает адрес документа, на который следует перейти.'
+//     },
+//     {
+//         titleOfAttr: 'hreflang'
+//         , actionOfAttr: 'Идентифицирует язык текста по ссылке.'
+//     }
+// ];
+//
+// const attrsDiv = [
+//     {
+//         titleOfAttr: 'align'
+//         , actionOfAttr: 'Задает выравнивание содержимого тега div.'
+//     },
+//     {
+//         titleOfAttr: 'title'
+//         , actionOfAttr: 'Добавляет всплывающую подсказку к содержимому.'
+//     }
+// ];
+//
+// class atr {
+//
+//     constructor(tagName, action, attrs) {
+//
+//         this.tagName = tagName;
+//         this.action = action;
+//         this.attrs = attrs;
+//
+//     }
+//
+// }
+//
+// let Lain = [
+//     new atr('a', 'Тег a является одним из важных элементов HTML и предназначен для создания ссылок.',attrsA),
+//     new atr('div','Элемент является блочным элементом и предназначен для выделения фрагмента документа с целью изменения вида содержимого.',attrsDiv)
+//     ];
+// console.log(Lain);
 
 
 

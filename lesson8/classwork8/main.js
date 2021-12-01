@@ -7,14 +7,14 @@
 
 // let changeWidth = document.getElementsByTagName('ul');
 // for (const changeWidthElement of changeWidth) {
-//     changeWidthElement.classList.add('changeWidth');
+//     changeWidthElement.style.width = '400px';
 // }
 
 // c) робить шириниу всіх елементів з класом linkList шириною 50%
 
 // let changeWidth = document.getElementsByClassName('linkList');
 // for (const changeWidthElement of changeWidth) {
-//     changeWidthElement.classList.add('width_50');
+//     changeWidthElement.style.width = '50%';
 // }
 
 // d) отримує текст який зберігається в елементі з класом listElement2
@@ -47,7 +47,7 @@
 // let changeTextSize = document.getElementsByTagName('a');
 // for (let i = 0; i < changeTextSize.length; i++) {
 //     if (changeTextSize[i].textContent === 'link3') {
-//         changeTextSize[i].classList.add('text_Size');
+//         changeTextSize[i].style.fontSize = '40px';
 //     }
 // }
 
@@ -93,7 +93,7 @@
 
 // let getP = document.getElementsByTagName('p');
 // for (const pElement of getP) {
-//     pElement.classList.add('padding_20');
+//     pElement.style.padding = '20px';
 // }
 
 // m) отримати елементи з класом text2 та змінити їм текст на назву групи (mon-year. Пример sep-2021)

@@ -1,16 +1,23 @@
 // Написати рекурсивну функцію, яка збирає всі назви класів з файлу rules.html в окремий масив.
 // Масив вивести в консоль.
 
-// function TheCurse (main) {
+// function TheCurse(main, syka = []) {
 //     console.log(main);
 //     if (main.children.length) {
 //         for (const Element of main.children) {
-//             TheCurse(Element);
+//             if (!syka.includes(Element.className)) {
+//                 syka.push(Element.className)
+//             }
+//                 if (Element.children.length) {
+//                     TheCurse(Element, syka);
+//                 }
+//
 //         }
 //     }
+//     return syka;
 // }
-// TheCurse(document.body);
-
+//
+// console.log(TheCurse(document.body));
 
 // let AllClasses = [];
 //

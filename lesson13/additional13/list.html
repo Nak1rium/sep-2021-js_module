@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .product {
+            padding: 20px;
+            margin: 10px;
+            width: auto;
+            height: auto;
+            border: 2px solid black;
+            border-radius: 20px;
+            box-sizing: border-box;
+            box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        }
+        .product div {
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: auto;
+            height: 100px;
+        }
+        .product h3 {
+          font-size: 25px;
+        }
+        .product h4 {
+            font-size: 20px;
+            margin-top: 20px;
+        }
+        .product h5 {
+            font-size: 15px;
+            margin-top: 10px;
+        }
+        .product:hover {
+            transition: .3s;
+            transform: rotateY(2grad);
+        }
+        .product button {
+            margin-left: 30px;
+        }
+        button {
+            width: 80px;
+            height: 20px;
+        }
+    </style>
+</head>
+<body>
+<button id="btn">delete all</button>
+<div class="wrapper"></div>
+<script src="list.js"></script>
+</body>
+</html>

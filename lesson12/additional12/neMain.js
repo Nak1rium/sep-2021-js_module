@@ -21,6 +21,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
                 fetch('https://jsonplaceholder.typicode.com/users/' + user.id + '/posts')
                     .then(response => response.json())
                     .then(posts => {
+
                         open ? postsDiv.style.display = 'none' : postsDiv.style.display = 'block';
                         open = !open;
 

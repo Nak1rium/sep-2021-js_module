@@ -11,7 +11,6 @@
 // l (затримка 0.7)
 // о (затримка 1)
 
-
 let form = document.getElementById('form');
 let btn = document.getElementById('btn');
 let value = document.forms.form.inp;
@@ -40,12 +39,14 @@ btn.addEventListener('click', function (e) {
 
     for (let i = 0; i < string.length; i++) {
         promise = promise.then(() => time())
-            .then(() => {console.log(string[i])
+            .then(() => {
+                console.log(string[i])
                 if (string[i] === ' ') {
                     div.innerText += '\xa0';
                 } else {
                     div.innerText += string[i];
-                }});
+                }
+            });
     }
 
     wrapper.appendChild(div);
